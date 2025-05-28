@@ -109,7 +109,6 @@ class PDFReader:
         }
         tk.Label(sidebar, text="Tools", bg="#2b2b2b", fg="white", font=("Segoe UI", 12, "bold")).pack(pady=10)
         tk.Button(sidebar, text="Pen", command=self.pen_mode, **tool_btn_style).pack(pady=5)
-        tk.Button(sidebar, text="Write", command=self.write_text, **tool_btn_style).pack(pady=5)
         tk.Button(sidebar, text="Redact", command=self.redact_content, **tool_btn_style).pack(pady=5)
         tk.Button(sidebar, text="Remove", command=self.edit_content, **tool_btn_style).pack(pady=5)
         tk.Button(sidebar, text="Comment", command=self.add_comment_mode, **tool_btn_style).pack(pady=5)
