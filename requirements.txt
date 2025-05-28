@@ -1,0 +1,8 @@
+You will need the following libs to use this:
+PyMuPDF (aka fitz)
+PIL
+Tkinter
+tempfile
+shutil
+
+install them via the pip install commandin your terminal
